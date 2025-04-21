@@ -88,7 +88,7 @@ This documentation walks through:
 
 ## 🎥 Demonstration
 
-- **Source Code**: [GitHub Repository](https://github.com/IITNNidhiRani/Assigment2)
+- **Source Code**: [https://github.com/MananGarg999/VCC-Assignment-2/tree/main)
 - **Demo Video**: [YouTube Video](https://youtu.be/bjnUDzxJ9Pc)
 
 ---
