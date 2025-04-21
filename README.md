@@ -65,3 +65,45 @@ This documentation walks through:
   sudo apt update
   sudo apt install stress
   stress --cpu 2 --timeout 90
+  ```
+
+### 5. Monitoring & Metrics
+- Observed system metrics through GCP Monitoring.
+- Verified auto-scaling behavior (no new instances due to low CPU usage).
+
+### 6. Firewall Testing
+- Confirmed port access:
+  - Ports 22 & 80 – accessible.
+  - Port 8080 – blocked (`telnet` and `nc` used for verification).
+
+---
+
+## 🔬 Observations
+
+- CPU usage peaked at **~10.82%**, well below the auto-scaling threshold.
+- MIG behaved as expected — no scale-up event triggered.
+- Security settings (IAM and firewall) were successfully applied and tested.
+
+---
+
+## 🎥 Demonstration
+
+- **Source Code**: [GitHub Repository](https://github.com/IITNNidhiRani/Assigment2)
+- **Demo Video**: [YouTube Video](https://youtu.be/bjnUDzxJ9Pc)
+
+---
+
+## ✅ Key Outcomes
+
+- ⚙️ **Efficient Resource Management** – Auto-scaling ensures the right number of VMs based on demand.
+- 🔐 **Controlled Access** – IAM roles and firewall rules secure the environment.
+- 📊 **Performance Awareness** – Monitoring tools provide real-time insights into CPU usage and scaling behavior.
+- 💡 **Cloud Engineering Skills** – Reinforces practical knowledge of VM provisioning, scripting, and GCP orchestration.
+
+---
+
+## ✅ Conclusion
+
+This project successfully demonstrates the setup of a **resilient, secure, and scalable infrastructure** on **Google Cloud Platform (GCP)** using best practices in automation and security.
+
+This assignment reinforces foundational concepts in cloud computing, making it a valuable reference for real-world deployment strategies.
